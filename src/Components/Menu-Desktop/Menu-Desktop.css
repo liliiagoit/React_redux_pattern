@@ -1,0 +1,63 @@
+.menu_desktop-container {
+    display: none;
+}
+
+
+@media(min-width: 1200px){
+    .menu_desktop-container {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 111px;
+    }
+/* .desktop_logo-title {
+
+} */
+
+.desktop_list {
+list-style: none;
+display: flex;
+
+}
+
+.desktop_list_item {
+    font-size: 16px;
+    color: #1A1A1A;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.desktop_download_span {
+    font-size: 14px;
+color: #1A1A1A;
+letter-spacing: -0.2px;
+margin-left: -40px;
+font-weight: bold;
+align-self: center;
+}
+
+.desktop_download_icon {
+    fill: black;
+}
+
+.desktop_download_btn {
+    font-size: 14px;
+color: #FFFFFF;
+letter-spacing: -0.2px;
+font-weight: bold;
+background: #01BC7E;
+border-radius: 2px;
+border: none;
+cursor: pointer;
+width: 101px;
+height: 34px;
+align-self: center;
+margin-right: 73px;
+
+}
+
+.desktop_logout_img {
+    padding-left: 5px;
+}
+}
